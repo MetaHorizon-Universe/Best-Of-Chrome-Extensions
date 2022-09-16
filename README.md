@@ -93,4 +93,4 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 
-**15.** Voila :exclamation: You have made a PR to the Awesome-Chrome-Extensions :boom: . Wait for your submission to be accepted and your PR to be merged.
+**15.** You have done a great job :boom: . Wait for your submission to be accepted and your PR to be merged.
