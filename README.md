@@ -33,7 +33,7 @@ To start contributing, follow the below guidelines:
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_user_name>/Best-Of-Chrome-Extensions.git
+git clone https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions.git
 ```
 
 **3.** Navigate to the project directory :file_folder: .
