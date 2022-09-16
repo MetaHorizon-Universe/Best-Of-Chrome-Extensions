@@ -39,7 +39,7 @@ git clone https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions.git
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd Awesome-Chrome-Extensions
+cd Best-Of-Chrome-Extensions
 ```
 
 <!-- **4.** Add a reference(remote) to the original repository.
