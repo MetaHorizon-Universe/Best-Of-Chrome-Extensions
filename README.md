@@ -1,6 +1,6 @@
 # Best-Of-Chrome-Extensions
 
-Make beautiful extensions
+                                                  Let's Make Beautiful Extensions
 ![Screenshot from 2022-09-17 00-10-38](https://user-images.githubusercontent.com/93483932/190709109-53528474-5416-40ac-ae57-956f2421a5bd.png)
 
                                                   ### Hacktoberfest 2022
