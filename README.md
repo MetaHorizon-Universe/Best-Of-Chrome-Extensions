@@ -23,6 +23,7 @@ If you'd like to use these extensions for yourself, or perhaps use parts of it a
 In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
 
 Happy Submissions 🧐:
+You Can join [Discord](https://discord.gg/QTPqnxVC) 
 
 ## Contribution Guidelines🏗
 
