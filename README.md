@@ -30,6 +30,16 @@ You Can join [Discord](https://discord.gg/QTPqnxVC)
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
 To start contributing, follow the below guidelines: 
 
+```mermaid
+flowchart LR
+    Fork[Fork the project]-->branch[Create a New Branch]
+    branch-->Edit[Edit file]
+    Edit-->commit[Commit the changes]
+    commit -->|Finally|creatpr((Create a Pull Request))
+    
+ ```
+
+
 **1.**  Fork [this](https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions) repository.
 
 **2.**  Clone your forked copy of the project.
