@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     padding: 2vw;
     min-width: 400px;
 }
+ 
 #input{
     margin: 1vw 0px;
     width: 98%;
