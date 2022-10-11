@@ -122,3 +122,7 @@ git push -u origin <your_branch_name>
 
 *This project is licensed under the MIT License - see the [LICENSE](https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions/blob/main/LICENSE) file for details*
 
+<br>
+<h5 align="center">Happy Contributing!</h5>
+<h5 align="center">May you have a great Hacktoberfest 2022!</h5>
+
