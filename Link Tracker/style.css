@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 2vw;
+    min-width: 400px;
+}
+#input{
+    margin: 1vw 0px;
+    width: 98%;
+    border: 2px solid green;
+    border-radius: 3px;
+    padding:  2px 8px;
+    color: green;
+    height: 20px;
+    box-sizing: border-box;
+    /* margin: 1vw; */
+}
+#input:hover{
+    background-color: green;
+    color: white;
+}
+#tab{
+    border: 2px solid green;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 0.2vw 0px;
+    margin-bottom: 0.8vw;
+    background-color: white;
+    color: green;
+    
+}
+#tab:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#save{
+    border: 2px solid green;
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin: 0.2vw 2px;
+    margin-bottom: 0.8vw;
+    background-color: white;
+    color: green;
+    
+}
+#save:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#deleted{
+    border: 2px solid green;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 0.2vw 0px;
+    margin-bottom: 0.8vw;
+    background-color: white;
+    color: green;
+}
+#deleted:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    padding: 0.5vw 0px;
+}
+li a{
+    color: green;
+}
