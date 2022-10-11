@@ -96,3 +96,29 @@ git push -u origin <your_branch_name>
 
 
 **15.** You have done a great job :boom: . Wait for your submission to be accepted and your PR to be merged.
+
+# Contributors 💪😎
+>Thanks a lot for spending your time helping! Keep rocking 🍻
+<!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/kodepirate">
+            <img src="https://avatars.githubusercontent.com/u/93483932?v=4" width="100"/>
+            <br />
+            <sub><b>kodepirate</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Morbius00">
+            <img src="https://avatars.githubusercontent.com/u/102956488?s=96&v=4"/>
+            <br />
+            <sub><b>Morbius00</b></sub>
+        </a>
+    </td></tr>
+</table>
+
+## License
+
+*This project is licensed under the MIT License - see the [LICENSE](https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions/blob/main/LICENSE) file for details*
+
