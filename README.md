@@ -111,21 +111,11 @@ git push -u origin <your_branch_name>
 >Thanks a lot for spending your time helping! Keep rocking 🍻
 <!-- readme: contributors -start -->
 <table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/kodepirate">
-            <img src="https://avatars.githubusercontent.com/u/93483932?v=4" width="100"/>
-            <br />
-            <sub><b>kodepirate</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Morbius00">
-            <img src="https://avatars.githubusercontent.com/u/102956488?s=96&v=4"/>
-            <br />
-            <sub><b>Morbius00</b></sub>
-        </a>
-    </td></tr>
+<a href="https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Coders-Dorm/Best-Of-Chrome-Extensions" />
+</a>
+
+Keep hacking
 </table>
 
 ## License
