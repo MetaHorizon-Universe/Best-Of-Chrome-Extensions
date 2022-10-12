@@ -1,9 +1,9 @@
-# Best-Of-Chrome-Extensions
+#  🧩 Best-Of-Chrome-Extensions  🧩
 
                                                   Let's Make Beautiful Extensions
 ![Screenshot from 2022-09-17 00-10-38](https://user-images.githubusercontent.com/93483932/190709109-53528474-5416-40ac-ae57-956f2421a5bd.png)
 
-                                                        ### Hacktoberfest 2022 ###
+                                                   ### Hacktoberfest 2022 ###
 
 # How to use these extensions?
 If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up:
