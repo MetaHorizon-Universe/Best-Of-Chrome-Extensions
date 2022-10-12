@@ -1,0 +1,24 @@
+body {}
+
+/* Rewrite el-popper and el-overlay z-index, should be higher than extension mask z-index */
+.el-popper, .el-overlay {
+  padding: 5px !important;
+  z-index: 10001 !important;
+}
+
+/* Since extension is overflow scroll, setting dynamic left of quill tooltip
+will be invisible, so set left to 0. */
+.ql-tooltip {
+  left: 0 !important;
+}
+
+.popup-wrapper::-webkit-scrollbar {
+  width: 5px !important;
+}
+.popup-wrapper::-webkit-scrollbar-track {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 5px !important;
+}
+.popup-wrapper::-webkit-scrollbar-thumb:window-inactive {
+  background: #aaa !important;
+}
