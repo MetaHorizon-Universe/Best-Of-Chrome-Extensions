@@ -1,11 +1,13 @@
-#  🧩 Best-Of-Chrome-Extensions  🧩
+<h1 align="center">🥳 <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2022 <img src= "https://octodex.github.com/images/original.png" width= "40" />🥳 </h1>
+
+<h1 align="center"> 🧩 Best-Of-Chrome-Extensions  🧩 </h1>
 
                                                   Let's Make Beautiful Extensions
 ![Screenshot from 2022-09-17 00-10-38](https://user-images.githubusercontent.com/93483932/190709109-53528474-5416-40ac-ae57-956f2421a5bd.png)
 
                                                    ### Hacktoberfest 2022 ###
 
-# How to use these extensions?
+# How to use these extensions🧩 ?
 If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up:
 
 - Clone this repository.
@@ -25,7 +27,7 @@ In order to make a hassle-free environment, I implore you all (_while contributi
 Happy Submissions 🧐:
 You Can join [Discord](https://discord.gg/QTPqnxVC) 
 
-## Contribution Guidelines🏗
+## Contribution Guidelines 🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
 To start contributing, follow the below guidelines: 
