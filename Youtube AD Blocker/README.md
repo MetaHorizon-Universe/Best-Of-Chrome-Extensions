@@ -1,6 +1,6 @@
 Hello Geeeks!
 
-I have developed this chrome extention for blocking YouTube ADs and Banners
+I have developed this chrome extension for blocking YouTube ADs and Banners
 
 #Applications:
 Nobody Likes ADs or Adertisement banner while streaming their desired youtube content
