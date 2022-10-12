@@ -112,7 +112,7 @@ git push -u origin <your_branch_name>
 <!-- readme: contributors -start -->
 <table>
 <a href="https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Coders-Dorm/Best-Of-Chrome-Extensions" />
+  <img src="https://contrib.rocks/image?repo=Coders-Dorm/Best-Of-Chrome-Extensions" max = {100} />
 </a>
 
 Keep hacking
