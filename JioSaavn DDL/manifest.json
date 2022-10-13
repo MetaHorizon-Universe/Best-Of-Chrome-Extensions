@@ -1,0 +1,22 @@
+{
+    "name": "JioSaavn DDL",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "description": "Downloads the currently playing song from jiosaavn.com",
+    "icons": {
+        "16": "./logo/16.png",
+        "48": "./logo/48.png",
+        "128": "./logo/128.png"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "main.js"
+    },
+    "host_permissions": [
+      "https://www.jiosaavn.com//"
+    ]
+  }
