@@ -1,0 +1,22 @@
+{
+    "name": "ZOOM-GMEET Attendance Export",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "description": "Export the ZOOM/GMEET participants list.",
+    "icons": {
+        "16": "./logo/16.png",
+        "48": "./logo/48.png",
+        "128": "./logo/128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
