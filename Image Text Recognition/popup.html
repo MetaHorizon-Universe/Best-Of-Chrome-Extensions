@@ -4,8 +4,9 @@
     <link rel="stylesheet" href="popup.css">
 </head>
 <body>
+  <h2>Image Text Recognition</h2>
   <section class="wrapper">
-    <h2>Image Text Recognition</h2>
+    <section class="select-image">
       <div>
         <label for="image-upload">Upload Image</label>
         <input id="image-upload" type="file" accept="image/*"></input>
@@ -19,12 +20,13 @@
           id="image-url"
           placeholder="https://example.com"
           pattern="https://.*"
-          size="30"
+          size="40"
         >
       </div>
-      <div>
-        <button id="submit">Submit</button>
-      </div>
+    </section>
+    <section class="submit-image">
+      <button id="submit">Submit</button>
+    </section>
   </section>
   <script src="popup.js"></script>
   <script src="tesseract/tesseract.min.js"></script>

@@ -1,8 +1,24 @@
 body {
-    background: #f1f5f9;
+    background: lavender;
     width: 500px;
+    font-size: 16px;
 }
 
 h2 {
   text-align: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.submit-image {
+  width: 30%;
+  align-self: center;
+  text-align: center;
+}
+
+#submit {
+  width: 100px;
+  height: 50px;
 }
