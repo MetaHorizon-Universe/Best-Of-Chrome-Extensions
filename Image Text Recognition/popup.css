@@ -15,10 +15,24 @@ h2 {
 .submit-image {
   width: 30%;
   align-self: center;
-  text-align: center;
+  text-align: end;
 }
 
 #submit {
   width: 100px;
   height: 50px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#result-wrapper {
+  display: none;
+  margin: 10px 0;
+}
+
+#image-text {
+  width: -webkit-fill-available;
+  width: -moz-available;
 }
