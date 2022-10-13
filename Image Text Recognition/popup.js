@@ -16,14 +16,16 @@ async function recognizeImage() {
     "corePath": "tesseract/tesseract-core-3.0.2.wasm.js",
   }
 
-  const result = await Tesseract.recognize(image, "eng", options)
-  const { data: { text } } = result;
-
-  console.log(text)
-
-  if (text) {
+  try {
+    const result = await Tesseract.recognize(image, "eng", options)
+    const { data: { text } } = result;
+    console.log(text)
     document.getElementById("image-text").innerText = text;
+    document.getElementById("error-message").innerText = "";
     document.getElementById("result-wrapper").style.display = "block";
+  } catch (error) {
+    console.log(error)
+    document.getElementById("error-message").innerText = error;
   }
 }
   
