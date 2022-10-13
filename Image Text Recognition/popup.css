@@ -36,3 +36,7 @@ h2 {
   width: -webkit-fill-available;
   width: -moz-available;
 }
+
+#error-message {
+  color: red;
+}
