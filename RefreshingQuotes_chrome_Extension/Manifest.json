@@ -1,0 +1,14 @@
+{
+"name" : "Learn with the go",
+"version" : "1.0",
+"manifest_version" : 3,
+"action" : {
+    "default_popup" :"logo.html",
+    "default_logo" : "logo.png"
+},
+"permissions" :["activeTab"],
+
+"icons" : {
+    "128":"logo.png"
+}
+}
