@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
 body {
     height: fit-content;
-    width: 200px;
+    width: 300px;
     padding: 0px 20px;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
@@ -36,8 +39,20 @@ button{
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.2s all;
 }
 button:hover {
     transform: scale(1.1);
+}
+#reset{
+    background-color: white;
+    border: 2px solid rgb(20, 85, 76);
+    color: black;
+}
+#startpause{
+    border: 2px solid rgb(20, 85, 76);
+    width: 100px;
 }
 
