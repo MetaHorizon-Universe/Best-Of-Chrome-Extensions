@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+.quotebody{
+    background-image: url('./background1.jpeg');
+    background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    height: 300px;
+    width:540px;
+    color:aliceblue;
+    border-radius: 2rem;
+       /* background-repeat: no-repeat; */
+}
+#quote{
+    position: relative;
+    left:2rem;
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 2rem;
+}
+h1{
+    position: relative;
+    top: -1rem;
+    left: 4rem;
+    font-weight: bold;
+}
