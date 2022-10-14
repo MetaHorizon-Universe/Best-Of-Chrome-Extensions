@@ -1,0 +1,20 @@
+body {
+  width: 30em;
+  height: 300px;
+  background-color: rgb(62, 99, 124);
+  display: flex;
+  justify-content: center;
+  margin: auto 10px;
+}
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+.result {
+  background-color: aliceblue;
+  display: inner-flex;
+  color: rgb(58, 58, 78);
+  border: 2px solid lightblue;
+  padding: 10px;
+  font-size: 1rem;
+}
