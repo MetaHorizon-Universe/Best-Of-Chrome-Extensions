@@ -1,3 +1,4 @@
+let ms = 0;
 let seconds = 0;
 let minutes = 0;
 let hours = 0;
@@ -7,22 +8,27 @@ let isRunning = false;
 
 function stopWatch()
 {
-    seconds++;
-    if(seconds / 60 === 1)
+    ms++;
+    if(ms / 60 === 1)
     {
-        seconds = 0;
-        minutes++;
-        if(minutes / 60 === 1)
+        ms = 0;
+        seconds++;
+        if(seconds / 60 === 1)
         {
-            minutes = 0;
-            hours++;
+            seconds = 0;
+            minutes++;
+            if(minutes/60 ===1){
+                minutes =0;
+                hours++;
+            }
         }
 
     }
+    let displayMilliSeconds = (ms >= 10) ? ms : ("0" + ms.toString()) ;
     let displaySeconds = (seconds >= 10) ? seconds : ("0" + seconds.toString()) ;
     let displayMinutes = (minutes >= 10) ? minutes : ("0" + minutes.toString()) ;
     let displayHours = (hours >= 10) ? hours : ("0" + hours.toString()) ;
-    document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+    document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds+ ":" + displayMilliSeconds;
 
 }
 
@@ -31,7 +37,7 @@ document.getElementById("startpause").onclick = () => {
     {
 
         //Start the stopwatch (by calling the setInterval() function)
-        interval = window.setInterval(stopWatch, 1000);
+        interval = window.setInterval(stopWatch, (1000/60));
         document.getElementById("startpause").innerHTML = "PAUSE";
         isRunning = true;
     }
@@ -50,6 +56,6 @@ document.getElementById("reset").onclick = () => {
     seconds = 0;
     minutes = 0;
     hours = 0;
-    document.getElementById("display").innerHTML = "00:00:00";
+    document.getElementById("display").innerHTML = "00:00:00:00";
     document.getElementById("startpause").innerHTML = "START";
 }
