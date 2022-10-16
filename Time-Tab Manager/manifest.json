@@ -1,0 +1,15 @@
+{
+  "name": "Chrome Time Tab",
+  "short_name": "Chrome Time Tab",
+  "version": "0.0.1.3",
+  "description": "Beautiful wallpapers with digital clock",
+  "icons": { "16": "icons/icon16.png",
+             "48": "icons/icon48.png",
+             "128": "icons/icon128.png"
+           },
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}

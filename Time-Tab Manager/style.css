@@ -1,0 +1,73 @@
+body, div, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0 12%;
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  margin: 50px 0px;
+}
+
+#category {
+    font-size: 100%;
+    z-index: 99;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#background-image {
+  background-size: cover;
+}
+
+#greeting {
+  font-size: 1000%;
+  color: white;
+  z-index: 9;
+  position: relative;
+  top: 30px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.25);
+  /*opacity: 0.5;*/
+}
+
+.timer {
+    /*padding: 118px;*/
+    font-size: 400%;
+    color: white;
+    z-index: 9;
+    margin-top: -450px;
+}
+
+.centering-flex-box {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-flow: flex-direction;
+  justify-content: center;
+  align-items: center;
+}
+/*
+#container {
+   compensates for translations and move things up a bit 
+  margin-top: -150px;
+}*/
