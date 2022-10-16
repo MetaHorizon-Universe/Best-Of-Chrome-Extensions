@@ -4,8 +4,7 @@
 
 - You can Add your Name And Date of Birth So that it can show Your Horoscope.
 
-![image](![image](https://user-images.githubusercontent.com/86556438/196036902-c93dd87b-c9f6-44f9-9b6c-ef3d08e86338.png)
-)
+![image](https://user-images.githubusercontent.com/86556438/196036902-c93dd87b-c9f6-44f9-9b6c-ef3d08e86338.png)
 
 - This If the Output
 
