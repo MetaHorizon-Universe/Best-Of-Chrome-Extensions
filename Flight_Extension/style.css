@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+body{
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+#flightbook{
+    justify-content: center;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+    width: 100%;
+}
+
+#flightbook form{
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+label{
+    margin: 5px;
+    font-size: larger;
+}
+
+#flightbook select{
+margin: 5px;
+border-radius: 5px;
+height: 6%;
+border: 1px solid rgb(129, 126, 126);
+}
+option{
+    height: 4%;
+    margin: 1px;
+}
+
+#flightbook form img {
+    width: 32px;
+    align-self: center;
+}
+#flightbook form div {
+    height: 32px;
+    align-self: center;
+}
+#flightbook form button {
+    border-radius: 5px;
+    width: 50%;
+    align-self: center;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+
+}
+#flightbook form button:hover {
+    width: 50%;
+    align-self: center;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(186, 181, 181);
+
+}
+
+#flight_info{
+    overflow:scroll;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+    width: 100%;
+}
+
+#flight_info table{
+    border-collapse: collapse;
+
+    margin: 25px 10px;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 12px 15px 20px rgb(0 0 0 / 15%);
+}
+#flight_info table th{
+    padding: 10px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    text-align: left;
+    
+   }
+#flight_info table td{
+ padding: 2px;
+text-align: center;
+}
+
+#flight_info table tr{
+    margin: 5px 0;
+   background-color: #ffffff;
+   }
+#flight_info button{
+    border-radius: 5px;
+    width: 50%;
+    align-self: center;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+}
+
+#flight_info button:hover {
+    width: 50%;
+    align-self: center;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(186, 181, 181);
+
+}
+p{
+    align-self: center;
+}

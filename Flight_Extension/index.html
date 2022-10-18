@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aero Affordo</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <body>
+    <div id="flightbook">
+      <form>
+        <label for="start">Start</label>
+        <select name="start" id="start">
+          <option value="null">Select an Option</option>
+        </select>
+        <label for="Destination">Destination</label>
+        <select name="sestination" id="destination">
+          <option value="null">Select an Option</option>
+        </select>
+        <div><img src="ZZ5H.gif" alt="loading"></div>
+        
+        <button id="submit">Search Flight</button>
+      </form>
+    </div>
+    <div id="flight_info">
+      <table>
+        <tr>
+          <th>Price</th>
+          <th>Flight Number</th>
+          <th>Departure</th>
+          <th>Return</th>
+        </tr>
+      </table>
+      <button>Go back</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
