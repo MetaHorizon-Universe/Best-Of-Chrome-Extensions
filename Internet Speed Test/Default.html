@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/Global.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <span id="introductionHeader" class="introductionHeader">Net Speed Test</span>
+        <div class="connectedInfoHeader" id="connectedInfoHeader">
+            <span id="txtBestServerHeading"></span>
+            <span id="txtPingCountryHeading"></span>
+            <span id="txtPingCityHeading"></span>
+        </div>
+    </header>
+    <main>
+
+
+        <div class='pulse-container'>
+            <svg class="pulse pulse_out_1" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_2" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_3" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_4" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_5" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_6" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_7" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <svg class="pulse pulse_out_8" xmlns="http://www.w3.org/2000/svg">
+        <circle class="back" cx="200" cy="200" r="190" />
+        <circle class="front" cx="200" cy="200" r="190" />
+      </svg>
+
+            <div class="logo">
+                <p id="txtFindingServer">Finding the Best Servers...</p><span id="prepareProgress"></span>
+                <a href="#" class="button" id="btnBeginSpeedTest"> Begin Test </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li class="active" id="btnShowSpeedTest"><i class="icon-gauge"></i>Speed Test</li>
+            <li id="btnShowResults"><i class="icon-doc-inv"></i>Results</li>
+            <li id="btnShowSettings"><i class="icon-wrench"></i>Settings</li>
+            <li id="btnShowAbout"><i class="icon-attention"></i>About</li>
+        </ul>
+    </footer>
+    <div class="page" id="resultsPage">
+        <div class="resultTable" id="resultTable">
+            <div class="resultTable-row resultTable-heading">
+                <div class="resultTable-heading-cell"><i class="icon-clock"></i><span>Time</span></div>
+                <div class="resultTable-heading-cell"><i class="icon-download"></i><span>Download</span></div>
+                <div class="resultTable-heading-cell"><i class="icon-upload"></i><span>upload</span></div>
+                <div class="resultTable-heading-cell"><i class="icon-loop-alt"></i><span>ping</span></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page" id="settingsPage">
+        <div class="currentServer">
+            <div>
+                <span id="txtServerSelectionName"></span>
+                <span id="txtServerSelectionSponsor"></span>
+            </div>
+            <a id="btnSelectAuto" class="sepButton sepButton-primary">Reset</a>
+        </div>
+        <div class="resultToolbar">
+            <form method="get">
+                <input type="text" class="searchInput" id="txtSearch" placeholder="Search..." />
+            </form>
+        </div>
+        <div class="changeServerPage" id="changeServerPageItem">
+        </div>
+    </div>
+    <div id="aboutPage" class="page">
+        <p class="aboutPage">
+            <i class="icon-gauge"></i> Internet Speed Test
+            <span>version: <i id="versionNumber"></i></span>
+        </p>
+    </div>
+    <div id="beginSpeedTestPage" class="page">
+        <div class="beginSpeedTest-heading">
+            <div class="activeMenu" id="pingMenuItem"><i class="icon-loop-alt"></i><span>ping</span></div>
+            <div id="downloadMenuItem"><i class="icon-download"></i><span>Download</span></div>
+            <div id="uploadMenuItem"><i class="icon-upload"></i><span>upload</span></div>
+        </div>
+        <div class="beginSpeedTest-Values">
+            <span id="pingMenuValue">5.0 ms</span>
+            <span id="downloadMenuValue">2.10 Mbps</span>
+            <span id="uploadMenuValue">0.9 Mbps</span>
+        </div>
+        <div class="smallSpinnerWrapper">
+            <div class="smallSpinner showSmallSpinner" id="pingSpinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="smallSpinner" id="downloadSpinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="smallSpinner" id="uploadSpinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <div class="speedTestWrapper" id="pingPage">
+            <div class="pingResultReport" id="pingResultReport">
+                <span>The Optimal Server Information</span>
+                <span id="txtBestServer"></span>
+                <span id="txtPingCountry"></span>
+                <span id="txtPingCity"></span>
+            </div>
+            <div id="pingReplyWrapper" class="pingReplyWrapper">
+            </div>
+        </div>
+        <div class="speedTestWrapper" id="downloadPage">
+            <div class="guageNumber">
+            </div>
+            <canvas id="canvasPressure"></canvas>
+            <div class="progressWrapper">
+                <i class="icon-server"></i>
+                <progress id="downloadProgress" value="0" max="100"></progress>
+                <i class="icon-person"></i>
+            </div>
+            <p class="hostedByTest">Hosted by: <span id="txtHostedByForDownload"></span></p>
+            <span id="humanReadableSpeed" class="humanReadableSpeed"></span>
+            <div class="progressBackground"></div>
+        </div>
+        <div class="speedTestWrapper" id="uploadPage">
+            <div class="guageNumber">
+            </div>
+            <canvas id="canvasPressureForUpload"></canvas>
+            <div class="progressWrapper">
+                <i class="icon-person"></i>
+                <progress id="uploadProgress" value="0" max="100"></progress>
+                <i class="icon-server"></i>
+            </div>
+            <p class="hostedByTest">Hosted by: <span id="txtHostedByForUpload"></span></p>
+            <span id="humanReadableSpeedForUpload" class="humanReadableSpeed"></span>
+            <div class="progressBackground"></div>
+        </div>
+        <div class="speedTestWrapper" id="testAgainPage">
+            <a href="#" class="button active rotate" id="btnTestAgain"> Test Again </a>
+        </div>
+    </div>
+    <script src="Script/gauge.js"></script>
+    <script src="Script/GetServers.js"></script>
+    <script src="Script/AsyncRequest.js"></script>
+    <script src="Script/Main.js"></script>
+</body>
+
+</html>

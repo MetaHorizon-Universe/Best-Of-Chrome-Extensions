@@ -1,0 +1,1 @@
+A stopwatch extension originally created by [Rohit Kavitake](https://github.com/Rohit-Kavitake), and slightly modified by [Sayak Raha](https://github.com/sayak-12). Enjoy!

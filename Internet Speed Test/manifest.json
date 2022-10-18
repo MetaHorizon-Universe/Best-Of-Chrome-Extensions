@@ -1,0 +1,28 @@
+{
+  "name": "Net Speed Test",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "description": "Test your internet connection speed (upload and download) from a toolbar panel",
+  "permissions": [
+    "tabs",
+    "storage",
+    "<all_urls>",
+    "alarms"
+  ],
+  "browser_action": {
+    "default_popup": "Default.html"
+  },
+  "icons": {
+    "16": "Content/Images/16.png",
+    "24": "Content/Images/24.png",
+    "32": "Content/Images/32.png",
+    "64": "Content/Images/64.png",
+    "128": "Content/Images/128.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "Script/background.js"
+    ]
+  }
+}

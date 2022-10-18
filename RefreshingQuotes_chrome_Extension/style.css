@@ -1,0 +1,20 @@
+body{
+    width:150px;
+    height:100px;
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+}
+
+p{
+    width:150px;
+    height:100px;
+    background-color: burlywood;
+    display:inner-flex;
+    font-size: 22px;
+    color: black;
+    margin: auto 10px;
+    padding: 10px;
+    border-radius: 8px;
+    //border: 15px solid #73AD21;
+}

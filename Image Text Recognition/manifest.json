@@ -1,0 +1,14 @@
+{
+    "name": "Image Text Recognition",
+    "description": "Recognize text in images",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+    },
+    "action": {
+      "default_title": "Click to recognize text in images",
+      "default_popup": "popup.html",
+      "default_icon": "search.png"
+    }
+}

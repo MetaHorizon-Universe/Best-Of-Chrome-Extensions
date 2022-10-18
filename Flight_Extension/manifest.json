@@ -1,0 +1,16 @@
+{
+    "name": "Aero Affordo",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "pngwing.com.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "128": "pngwing.com 2.png",
+        "64": "pngwing.com.png"
+    }
+}

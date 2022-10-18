@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>Image Text Recognition</h2>
+  <section class="wrapper">
+    <section class="select-image">
+      <div>
+        <label for="image-upload">Upload Image</label>
+        <input id="image-upload" type="file" accept="image/*"></input>
+      </div>
+      <div>-- OR --</div>
+      <div>
+        <label for="image-url">Enter an image URL</label>
+        <input
+          type="url"
+          name="image-url"
+          id="image-url"
+          placeholder="https://example.com"
+          pattern="https://.*"
+          size="40"
+        >
+      </div>
+    </section>
+    <section class="submit-image">
+      <button id="submit">Submit</button>
+    </section>
+  </section>
+  <section id="result-wrapper">
+    <label for="image-text">Image Text</label>
+    <div>
+      <textarea id="image-text" rows="5" cols="50"></textarea>
+    </div>
+  </section>
+  <div id="error-message"></div>
+  <script src="popup.js"></script>
+  <script src="tesseract/tesseract.min.js"></script>
+</body>
+</html>
