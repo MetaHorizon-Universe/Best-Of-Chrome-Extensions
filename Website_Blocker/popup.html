@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="popup.js"></script>
+    <link rel="stylesheet" href="spectre.min.css">
+    <title>URL Shortner</title>
+    <style>
+        body {
+            width:420px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+          <div class="card-title h5">Website Blocker</div>
+          <div class="card-subtitle text-gray">Enter Name of Website You want to Block without .com or http for eg - facebook</div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input class="form-input" type="text" id="inputWebsite" placeholder="Website name">
+            </div>
+            <div class="toast toast-error d-hide">
+                Enter Valid Website
+            </div>
+            <div class="loading d-hide"></div>
+            <div class="toast toast-success d-hide">
+            </div>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-primary" id="blockSite">Block The Website</button>
+        </div>
+      </div>
+</body>
+</html>

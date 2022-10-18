@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "A Website blocker Extension",
+    "description": "Block any Website",
+    "version": "1.0",
+    "icons": {
+        "48": "lock48.png",
+        "96": "lock96.png",
+        "128": "lock128.png"
+    },
+    "permissions": [
+        "declarativeNetRequest",
+        "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+}
