@@ -6,7 +6,7 @@
 ![image](https://github.com/MetaHorizon-Universe/Best-Of-Chrome-Extensions/assets/93483932/b0c1f6a9-1c6f-4f6c-8772-4048d204825d)
 
 
-                                                  ### Hacktoberfest 2022 ###
+                                                  ### Hacktoberfest 2023 ###
 
 # How to use these extensions🧩 ?
 If you'd like to use these extensions for yourself, or perhaps use parts of it and modify the rest, here's how you will need to set it up:
@@ -26,7 +26,7 @@ If you'd like to use these extensions for yourself, or perhaps use parts of it a
 In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
 
 Happy Submissions 🧐:
-You Can join [Discord](https://discord.gg/QTPqnxVC) 
+You Can join [Discord](https://discord.gg/x2MGFH2Ewn) 
 
 ## Contribution Guidelines 🏗
 
