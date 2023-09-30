@@ -3,7 +3,8 @@
 <h1 align="center"> 🧩 Best-Of-Chrome-Extensions  🧩 </h1>
 
                                                  Let's Make Beautiful Extensions
-![Screenshot from 2022-09-17 00-10-38](https://user-images.githubusercontent.com/93483932/190709109-53528474-5416-40ac-ae57-956f2421a5bd.png)
+![image](https://github.com/MetaHorizon-Universe/Best-Of-Chrome-Extensions/assets/93483932/b0c1f6a9-1c6f-4f6c-8772-4048d204825d)
+
 
                                                   ### Hacktoberfest 2022 ###
 
