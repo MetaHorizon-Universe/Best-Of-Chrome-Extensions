@@ -1,4 +1,4 @@
-<h1 align="center">🥳 <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2023 <img src= "https://octodex.github.com/images/original.png" width= "40" />🥳 </h1>
+<h1 align="center">🥳 <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2023 <img src= "https://octodex.github.com/images/original.png" width= "40"/>🥳 </h1>
 
 <h1 align="center"> 🧩 Best-Of-Chrome-Extensions  🧩 </h1>
 
@@ -28,7 +28,7 @@ In order to make a hassle-free environment, I implore you all (_while contributi
 Happy Submissions 🧐:
 You Can join [Discord](https://discord.gg/x2MGFH2Ewn) 
 
-## Contribution Guidelines 🏗
+Contribution Guidelines 🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
 To start contributing, follow the below guidelines: 
@@ -110,7 +110,7 @@ git push -u origin <your_branch_name>
 
 **15.** You have done a great job :boom: . Wait for your submission to be accepted and your PR to be merged.
 
-# Contributors 💪😎
+Contributors 💪😎
 >Thanks a lot for spending your time helping! Keep rocking 🍻
 <!-- readme: contributors -start -->
 <table>
@@ -121,7 +121,7 @@ git push -u origin <your_branch_name>
 Keep hacking
 </table>
   
-## License
+License
 
 *This project is licensed under the MIT License - see the [LICENSE](https://github.com/Coders-Dorm/Best-Of-Chrome-Extensions/blob/main/LICENSE) file for details*
 
